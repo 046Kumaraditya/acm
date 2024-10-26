@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+    background:url("/Assets/aditya.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom ;
+}
+
+.inner-box{
+    width: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 20px;
+    backdrop-filter: blur(8px);
+    background-color: rgba(43, 43, 43, 0);
+    border-radius: 0 8px 8px 0;
+    border:1px solid rgb(88, 88, 88);
+    color:white;
+    z-index: 2;
+   }
+
+
+.signup-header h1{
+    font-size: 2.5rem;
+    color:white;
+    
+}
+
+.signup-header p{
+    font-size: 0.9rem;
+    color: #cacaca;
+}
+
+.signup-body {
+    margin: 20px 0;
+}
+
+.signup-body p{
+    margin: 10px 0;
+}
+
+.signup-body p label{
+    display: block;
+    font-weight: bold;
+}
+
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+.signup-body p input[type="submit"] {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.signup-body p input[type="submit"]:hover{
+    background-color: #2a709f;
+}
+
+.signup-footer p{
+    color: #c8c8c8;
+    text-align: center;
+}
+
+.signup-footer p a{
+    color: #2a709f;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right, #ffffff33, #ffffffff); 
+    position: absolute;  
+}
+
+.c1 {
+    top: 100px;
+    left: 40px;
+}
+
+.c2{
+    bottom: 200px;
+    right: 50px;
+}
